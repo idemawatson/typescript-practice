@@ -1,6 +1,5 @@
 {
-  function show(value: number): void; //先に関数のシグニチャだけを定義する
-  function show(value: boolean): void; //これにより、any型の引数を型チェックすることができる
+  function show(value: number | boolean): void; //先に関数のシグニチャだけを定義する。これにより、any型の引数を型チェックすることができる
   function show(value: any): void {
     if (typeof value === "number") {
       console.log(value.toFixed(0));
