@@ -18,5 +18,9 @@
   "homepage": "https://github.com/idemawatson/typescript-practice#readme",
   "devDependencies": {
     "ts-node": "^8.10.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.38",
+    "jquery": "^3.5.1"
   }
 }
